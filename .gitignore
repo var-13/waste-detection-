@@ -34,12 +34,6 @@ env/
 *~
 .DS_Store
 
-# Large model files
-*.pt
-*.pth
-*.onnx
-*.ckpt
-
 # Node modules
 node_modules/
 .env
