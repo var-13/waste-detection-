@@ -1,0 +1,87 @@
+.modal-body {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.file-input {
+  position: relative;
+  display: block;
+}
+
+.file-input input {
+  display: none;
+}
+
+.file-input span {
+  display: block;
+  padding: 10px 12px;
+  border: 2px dashed #ddd;
+  border-radius: 4px;
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.file-input:hover span {
+  border-color: #4CAF50;
+  background-color: #fafafa;
+}
+
+.modal-actions {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.btn-cancel,
+.btn-detect {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 13px;
+  transition: all 0.2s;
+}
+
+.btn-cancel {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.btn-cancel:hover {
+  background-color: #e0e0e0;
+}
+
+.btn-detect {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.btn-detect:hover:not(:disabled) {
+  background-color: #45a049;
+}
+
+.btn-detect:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.upload-btn {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.upload-btn:hover {
+  background-color: #45a049;
+}
